@@ -1,0 +1,99 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-rows:12vh 88vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "h"
+                         "m"
+    ;
+}
+main{
+    grid-area: m;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+#logar{
+    margin-left: 69%;
+}
+header{
+    background-color: #6610f2;
+    grid-area: h;
+    padding-top:2%;
+}
+.link{
+    margin-left: 5%;
+}
+#btnCadastro{
+        margin-top:15%;
+        width:180px;
+        margin-left: 14%;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        cursor: not-allowed;
+        border-radius: 10px;
+        outline: none;
+}
+#btnLogin{
+    margin-top:15%;
+        width:180px;
+        margin-left: 20%;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        cursor: not-allowed;
+        border-radius: 10px;
+        outline: none;
+}
+input{
+    width:280px;
+    height:38px;
+    outline: none;
+    border:none;
+    
+}
+.form{
+    border:solid 1px black;
+    margin-top: 12%;
+    width: 340px;
+    height:40px;       
+}
+.icone{
+    float: left;
+    padding-top: 12px;
+    padding-left: 2px;
+    height: 30px;
+    width:20px;
+}
+.input{
+    float: left;
+    margin-left: 1px;
+}
+#eye1{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+#eye2{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.erro{
+    color:red;
+    margin-top: 50px;
+}

@@ -1,0 +1,102 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#infoUsuarios{
+    margin-top: 5%;
+    width:300px;
+    margin-left: 40%;
+}
+#seguir{
+    background-color: white;
+    border-color: #1E90FF;
+    color: #1E90FF;
+    border-width: thin;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+    outline: none;
+    
+}
+#seguindo{
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    color: white;
+    border-width: thin;
+    
+    width:100px;
+    height:30px;
+    outline: none;
+}
+#main{
+    width: 100%;
+}
+
+.artigos{
+    width:700px;
+    height:135px;
+    margin-top: 50px;
+    margin-left: 25%;
+    border:2px solid black;
+    cursor: pointer;
+}
+
+img{
+    width:30px;
+    height: 30px;
+    border-radius:100%;
+    
+}
+
+.titulo{
+    margin-left: 3px;
+    margin-top:-20px;
+}
+.subtitulo{
+    margin-left: 3px;
+    margin-top: -15px;
+}
+.autor{
+    margin-left: 3px;
+    height:40px;
+    margin-top: -10px;
+}
+.a{
+    float:left;
+    margin-left:7px;
+    margin-top: 4px;
+}
+img{
+    float:left;
+}
+#mes{
+    margin-left:65%;
+    margin-top:5%;
+}
+.data{
+    cursor: auto;
+    margin-top: 28px;
+}
+#img{
+    float: none;
+}
+#ar{
+    margin-left: 25%;
+}
+#seguindo{
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    color: white;
+    border-width: thin;
+  
+    width:100px;
+    height:30px;
+    outline: none;
+
+}

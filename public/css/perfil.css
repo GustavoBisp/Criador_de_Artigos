@@ -1,0 +1,161 @@
+body{
+    overflow-x: hidden;
+}
+#foto{
+    background-color: #f5f5f5;
+    border:1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    
+}
+#infos{
+    margin-left: 35%;
+     grid:m;
+     display: grid;
+     justify-content: center;
+     grid-template-rows: 30vh 60vh;
+     grid-template-columns:1fr ;
+     grid-template-areas: "f"
+                          "u";
+}
+#info{
+    grid-area:f;
+    
+}
+#user{
+    grid-area: u;
+    
+}
+#user{
+    margin-top:5%;
+}
+span{
+    margin-top: 3%;
+}
+input{
+   
+   margin-left:10%;
+}
+form{
+    float: left;
+    margin-top: 4%;
+}
+#info{
+    margin-top:100px;
+    width:500px;
+    height:400px;
+}
+#sair{
+    background-color: red;
+    outline: none;
+    color: white;
+    margin-left: 0px;
+    border:none;
+    width:100px;
+    height:30px;
+    border-radius:3px;
+    cursor: pointer;
+}
+#sairr{
+    margin-top:5%;
+    margin-right:80%;
+}
+#editar{
+    background-color: green;
+    outline: none;
+    color: white;
+    border:none;
+    width:100px;
+    height:30px;
+
+    border-radius:3px;
+    cursor: pointer;
+}
+
+
+#img{
+    width:100px;
+    height: 100px;
+    border-radius:100%;
+    border:solid 0.5px black;
+}
+
+.titulo{
+    margin-left: 3px;
+}
+.subtitulo{
+    margin-left: 3px;
+}
+.autor{
+    margin-left: 3px;
+    height:40px;
+    margin-top: -10px;
+}
+.a{
+    float:left;
+    margin-left:7px;
+    margin-top: 4px;
+}
+#img{
+    float:left;
+}
+#mes{
+    width:500px;
+    margin-top:5%;
+}
+.data{
+    cursor: auto;
+    margin-top: 28px;
+}
+#atualizar{
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border:none;
+    height: 30px;
+    font-weight:bolder;
+    border-radius:2px;
+    cursor: pointer;
+    outline:none;
+}
+
+h2{
+    margin: 0px;
+    
+}
+.artigos{
+    width:800px;
+    height:180px;
+    margin-top:2%;
+    margin-left: -20%;
+    border:2px solid black;
+    cursor: pointer;
+}
+
+#foto{
+    width:45px;
+    height: 45px;
+    border-radius:100%;
+    margin-top: -18px;
+    border: solid 0.5px black;
+    margin-left: 4px;
+}
+
+.titulo{
+    margin-left: 3px;
+   margin-top: 1%;
+}
+.subtitulo{
+    margin-left: 3px;
+    
+}
+.autor{
+    margin-left: -5px;
+    height:40px;
+    margin-top: -10px;
+}
+.data{
+    margin-top: -15px;
+}
